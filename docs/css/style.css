@@ -5,12 +5,17 @@
 
 body {
   font-family: pangolin;
-  margin: auto;
+  margin: 0 auto;
   }
 
-h3 {
+h1 {
   text-align: center;
   font-size: 1.75em;
+}
+
+section {
+  display: inline-block;
+  margin: 0px;
 }
 
 /* Simple Responsive Framework. */
@@ -21,40 +26,39 @@ h3 {
   width: 100%;
   }
 
-h1 {
-  margin-bottom: 15px;
-}
-
 p {
   font-size: 1.0em;
   border: 1px solid black;
   width: 90%;
-  margin: 10px auto;
+  margin: 0 auto;
   color: #000;
-  padding: 35px 10px 0px 10px;
+  padding: 35px 10px 10px 10px;
   height: 160px;
   overflow: hidden;  
 }
 
-span {
+h3 {
+  margin: 0px;
+  position: relative;
+  top: 31px;
+  right: -62%;
   width: 33%;
+  display: block;
+  padding: 2px 30px;
   text-align: center;
   border: 1px solid #000;
-  float: right;
-  margin: -36px -11px 0px -10px;
-  padding: 2px 15px;
   font-size: 1.25em;
 }
 
-span.chicken {
+h3.chicken {
   background-color: #cf8d8d;
 }
 
-span.beef {
+h3.beef {
   background-color: #b93c3b;
 }
 
-span.sushi {
+h3.sushi {
   background-color: #e1cb8d;
 }
 
@@ -144,8 +148,17 @@ span.sushi {
   .col-md-12 {
     width: 100%;
   }
-
   .col-md-12 p {
     width: 95%;
   }
+  .col-md-12 h3 {
+    right: -80.66%;
+    width: 16.66%;
+  }
+
+
+  br {
+    display: none;
+  }
+
 }
