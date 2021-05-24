@@ -14,24 +14,21 @@ h1 {
 }
 
 section {
-  display: inline-block;
   margin: 0px;
 }
 
 /* Simple Responsive Framework. */
 .row {
-  justify-content: center;
-  display: inline-block;
   padding: 0px;
   width: 100%;
   }
 
 p {
   font-size: 1.0em;
+  color: #000;
   border: 1px solid black;
   width: 90%;
   margin: 0 auto;
-  color: #000;
   padding: 35px 10px 10px 10px;
   height: 160px;
   overflow: hidden;  
@@ -43,8 +40,7 @@ h3 {
   top: 31px;
   right: -62%;
   width: 33%;
-  display: block;
-  padding: 2px 30px;
+  padding: 2px;
   text-align: center;
   border: 1px solid #000;
   font-size: 1.25em;
@@ -155,8 +151,6 @@ h3.sushi {
     right: -81.5%;
     width: 16%;
   }
-
-
   br {
     display: none;
   }
